@@ -1,0 +1,18 @@
+{
+    "name": "backend-bot",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node server.js",
+      "refresh": "node refreshToken.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "fs-extra": "^11.1.1",
+      "kiteconnect": "^4.0.0",
+      "node-telegram-bot-api": "^0.61.0",
+      "nodemailer": "^6.9.8"
+    }
+  }
+  
